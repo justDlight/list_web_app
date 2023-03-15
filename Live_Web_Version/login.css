@@ -1,0 +1,49 @@
+/* CSS for login.php and register.php */
+
+body {
+    background-color: aqua;
+}
+
+#login-row {
+    text-align: center;
+    border: solid black 3px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+}
+
+#video {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 90%;
+    width: 90%;
+}
+
+#login-row-vid {
+    text-align: center;
+    border: solid black 3px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: antiquewhite;
+}
+
+#login-header {
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+#login-sub-header {
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+#login-btn {
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+fieldset {
+    border: 0px;
+}

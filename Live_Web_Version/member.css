@@ -1,0 +1,582 @@
+/* CSS for member.php and guest.php */
+
+body{             
+    background: black !important;
+    color: white !important;  
+    font-family: verdana;  
+    font-size: 100%;
+}
+
+h1{  
+    font-family: verdana;  
+    font-size: 100%;
+    text-align: center;
+    align-content: center;  
+}  
+
+h3{   
+    font-family: verdana;  
+    font-size: 100%;  
+}
+
+h4{  
+    font-family: "Luminari", fantasy;  
+    font-size: 100%;  
+}
+
+h5{  
+    font-family: verdana;  
+    font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0% !important;
+}
+
+.row {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    --bs-gutter-x: 0rem !important;
+}
+
+#header{
+    margin: 0% !important; 
+}
+
+#welcome_txt {
+    padding-top: 3% !important;
+}
+
+#welcome_txt span {
+    color: rgb(168, 7, 7);
+}
+
+#row1 {
+    border-style: solid;
+    border-width: 20px solid !important;
+    border-color: #94765d;
+    background-color: #b68f70;
+    line-height: 30px;
+    color: #000000;
+    padding: 40px;
+    box-shadow:
+	  inset #a88364 0 0 0 5px, 
+    inset #81634a 0 0 0 1px, 
+    inset #745943 0 0 0 10px, 
+    inset #96765d 0 0 0 11px, 
+    inset #a7856c 0 0 0 16px, 
+    inset #bd9e89 0 0 0 17px, 
+    inset #dac0af 0 0 0 21px, 
+    inset #e7dbd2 0 0 0 22px;
+   
+}
+
+#notebook_gif {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 5%;
+}
+#col1 {
+    margin-bottom: 5%;
+}
+#jump_list_down {
+    margin: 10px;
+    padding: 15px 30px !important;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 600;
+    font-size: larger;
+    box-shadow: 0px 0px 14px -7px #19f084;
+    background-image: linear-gradient(45deg, #a5ff2f 0%, #19f02b  51%, #2fffcb  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#jump_list_down  {
+    background-position: right center;
+    /* change the direction of the change here */
+
+}
+
+#jump_list_down {
+    transform: scale(0.95);
+}
+
+#row2 {
+    padding-top: 3% !important;
+    border-style: solid;
+    border-width: 5px solid;
+    border-color: rgb(25, 148, 25);
+    background-color: rgb(25, 148, 25);
+    line-height: 30px;
+    color: #000000;
+    padding: 40px;
+    box-shadow:
+	  inset #1f6d10 0 0 0 5px, 
+    inset #0cda16 0 0 0 1px, 
+    inset #22af0f 0 0 0 10px, 
+    inset #1fff01 0 0 0 11px, 
+    inset #57ff5f 0 0 0 16px, 
+    inset #0c8f00 0 0 0 17px, 
+    inset #0aca54 0 0 0 21px, 
+    inset #1cca0d 0 0 0 22px;
+}
+
+#prev_list_header {
+    color: black;
+    text-align: center;
+}
+
+#list_img {
+    height: 175px;
+    width: 150px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+#prev_list_txt {
+    color: black;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#prev_list_php {
+    color: rgb(255, 255, 255);
+}
+
+/* Download BTN for the previous list */
+#prev_list_dwn {
+    margin: 10px;
+    padding: 15px 30px !important;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 600;
+    font-size: larger;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-bottom: 5%;
+  }
+  
+#prev_list_dwn {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+}
+  
+#prev_list_dwn {
+    transform: scale(0.95);
+}
+/* END of Download previous list btn */
+
+#row3 {
+    padding-top: 3% !important;
+    border-style: solid;
+    border-width: 5px solid;
+    border-color: rgb(221, 9, 240);
+    padding-left: 1% !important;
+    background-color: #8a25c4;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    color: #000000;
+    padding: 40px;
+    box-shadow:
+	  inset #8a25c4 0 0 0 5px, 
+    inset #6710b8 0 0 0 1px, 
+    inset #9c15d1 0 0 0 10px, 
+    inset #570e79 0 0 0 11px, 
+    inset #9e4fdf 0 0 0 16px, 
+    inset #4d0eb3 0 0 0 17px, 
+    inset #8b02fc 0 0 0 21px, 
+    inset #dc23f5 0 0 0 22px;
+}
+
+#new_list_header {
+    text-align: center !important;
+    align-content: center !important;
+    margin-bottom: 2%;
+    color: #000000; 
+}
+
+#new_list_sub_header {
+    margin-bottom: 2%;
+}
+
+/* New Item BTN */
+#new_itm_btn {
+    background-color: #09cdea;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 2.75rem;
+    padding: 0.75rem 1.65rem;
+    text-align: center;
+    text-decoration: underline #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 50px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    touch-action: manipulation;
+    margin-bottom: 1% !important;
+}
+
+#new_itm_btn  {
+  content: '';
+  border: 1px solid #ffffff;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+    #new_itm_btn  {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* END OF New Item BTN */
+
+#listHere {
+    text-align: center;
+    color: black;
+}
+
+/* Show List BTN */
+#show_list_btn {
+    background-color: #097dea;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 2.75rem;
+    padding: 0.75rem 1.65rem;
+    text-align: center;
+    text-decoration: underline #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 50px;
+    /* position: relative; */
+    cursor: pointer;
+    transform: rotate(2deg);
+    touch-action: manipulation;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+#show_list_btn  {
+  content: '';
+  border: 1px solid #ffffff;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+    #show_list_btn  {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* END OF Show List BTN */
+
+#dwn_header {
+    color: black;
+}
+
+#download_img {
+    height: 175px;
+    width: 150px;
+
+}
+
+/* DOWNLOAD BUTTON */
+#btn {
+    background-color: #1b10b4;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 2.75rem;
+    padding: 0.75rem 1.65rem;
+    text-align: center;
+    text-decoration: underline #ffffff solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 50px;
+    /* position: relative; */
+    cursor: pointer;
+    touch-action: manipulation;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+#btn  {
+  content: '';
+  border: 1px solid #ffffff;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+    #btn  {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* END OF DOWNLOAD BTN */
+
+* {
+    outline:none;
+      border:none;
+      margin:0px;
+      padding:0px;
+      font-family:Courier, monospace;
+}
+
+#text_area {
+    width:500px;
+    height: 400px;
+    overflow:hidden;
+    background-color:#FFF;
+    color:#222;
+    font-family:Courier, monospace;
+    font-weight:normal;
+    font-size:24px;   
+    overflow-y: scroll;
+    line-height:40px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:45px;
+    padding-bottom:34px;
+    margin-top: 3%;
+    background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+    background-repeat:repeat-y, repeat;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    -webkit-box-shadow: 0px 2px 14px #000;
+    box-shadow: 0px 2px 14px #000;
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #FFF;
+}
+
+#row5 {
+    background-color: #FF512F;
+    padding-top: 3% !important;
+    border-style: solid;
+    border-width: 5px solid;
+    border-color: rgb(134, 9, 0);
+    padding-left: 1% !important;
+    line-height: 30px;
+    color: #000000;
+    padding: 40px;
+    box-shadow:
+	  inset #d33414 0 0 0 5px, 
+    inset #973c29 0 0 0 1px, 
+    inset #c01c1c 0 0 0 10px, 
+    inset #aa2615 0 0 0 11px, 
+    inset #ff2a00 0 0 0 16px, 
+    inset #fa4e4e 0 0 0 17px, 
+    inset #ff0000 0 0 0 21px, 
+    inset #941a0a 0 0 0 22px;
+}
+
+#delete_img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+/* DELETE ITEM BUTTON */
+#delete_btn {
+    background-color: #ff0000;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 2.75rem;
+    padding: 0.75rem 1.65rem;
+    text-align: center;
+    text-decoration: underline #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 50px;
+    /* position: relative; */
+    cursor: pointer;
+    touch-action: manipulation;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    transform: rotate(4deg);
+}
+
+#delete_btn {
+  content: '';
+  border: 1px solid #ffffff;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+    #delete_btn  {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* END OF DELETE ITEM BTN */
+
+/* DELETE ALL BUTTON */
+#delete_all_btn {
+    background-color: #000000;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #ff0000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 2.75rem;
+    padding: 0.75rem 1.65rem;
+    text-align: center;
+    text-decoration: underline #ff0000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 50px;
+    /* position: relative; */
+    cursor: pointer;
+    touch-action: manipulation;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    transform: rotate(-4deg);
+}
+
+#delete_all_btn {
+  content: '';
+  border: 1px solid #ffffff;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+    #delete_all_btn  {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* END OF DELETE All BTN */
+
+#row6 {
+    background-color: #9c9a21;
+    padding-top: 3% !important;
+    border-style: solid;
+    border-width: 5px solid;
+    border-color: rgb(215, 238, 13);
+    padding-left: 1% !important;
+    line-height: 30px;
+    color: #000000;
+    padding: 40px;
+    box-shadow:
+	  inset #d6d324 0 0 0 5px, 
+    inset #d6d439 0 0 0 1px, 
+    inset #cbf121 0 0 0 10px, 
+    inset #a8c916 0 0 0 11px, 
+    inset #aca924 0 0 0 16px, 
+    inset #d1cf53 0 0 0 17px, 
+    inset #a4d420 0 0 0 21px, 
+    inset #a4c415 0 0 0 22px;
+}
+
+#save_img {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+#save_list_sub_header {
+    margin-bottom: 3%;
+}
+
+/* DELETE ALL BUTTON */
+#save_list_btn {
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    color: #ff0000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 2.75rem;
+    padding: 0.75rem 1.65rem;
+    text-align: center;
+    text-decoration: underline #ff0000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 50px;
+    /* position: relative; */
+    cursor: pointer;
+    touch-action: manipulation;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+#save_list_btn {
+  content: '';
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+    #save_list_btn  {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* END OF DELETE All BTN */
